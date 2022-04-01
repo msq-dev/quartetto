@@ -34,8 +34,7 @@
   let userWins = null
 
   onMount(() => {
-    $userBegins = true
-    // $userBegins = Math.round(Math.random()) ? true : false
+    $userBegins = Math.round(Math.random()) ? true : false
   })
 
   function moveUser() {

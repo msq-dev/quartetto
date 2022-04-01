@@ -1,5 +1,6 @@
 <script>
   import { scale } from "svelte/transition"
+  // import Sparkling from "./Sparkling.svelte"
 
   export let user = false
   export let npc = false
@@ -9,6 +10,7 @@
   export let winner = false
 </script>
 
+<!-- <Sparkling {winner}> -->
 <div
   class="info-box"
   class:user
@@ -25,6 +27,7 @@
   <slot />
 </div>
 
+<!-- </Sparkling> -->
 <style>
   .info-box {
     padding: 0.25em 0.5em;

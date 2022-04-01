@@ -7,7 +7,10 @@ export default [
     address: "Invalidenstraße 157",
     district: "Mitte",
     info: "",
-    images: ["https://apps.maxspuling.de/assets/quartetto/1a.jpg"],
+    images: [
+      "https://apps.maxspuling.de/assets/quartetto/1a.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/1b.jpg",
+    ],
     stats: [
       { name: "Preis", value: 2, unit: "€", highestWins: false },
       { name: "Genussdauer", value: 5, unit: "min", highestWins: true },
@@ -24,7 +27,10 @@ export default [
     address: "Wilmersdorfer Straße 135",
     district: "Charlottenburg",
     info: "",
-    images: ["https://apps.maxspuling.de/assets/quartetto/1b.jpg"],
+    images: [
+      "https://apps.maxspuling.de/assets/quartetto/1b.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/1a.jpg",
+    ],
     stats: [
       { name: "Preis", value: 1, unit: "€", highestWins: false },
       { name: "Genussdauer", value: 8, unit: "min", highestWins: true },
@@ -41,7 +47,15 @@ export default [
     address: "Dunckerstraße 23",
     district: "Prenzlauer Berg",
     info: "",
-    images: ["https://apps.maxspuling.de/assets/quartetto/1c.jpg"],
+    images: [
+      "https://apps.maxspuling.de/assets/quartetto/1c01.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/1c02.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/1c03.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/1c04.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/1c05.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/1c06.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/1c07.jpg",
+    ],
     stats: [
       { name: "Preis", value: 3, unit: "€", highestWins: false },
       { name: "Genussdauer", value: 6, unit: "min", highestWins: true },
@@ -58,7 +72,10 @@ export default [
     address: "Karl-Marx-Straße 35",
     district: "Neukölln",
     info: "",
-    images: ["https://apps.maxspuling.de/assets/quartetto/1d.jpg"],
+    images: [
+      "https://apps.maxspuling.de/assets/quartetto/1d.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/1a.jpg",
+    ],
     stats: [
       { name: "Preis", value: 3, unit: "€", highestWins: false },
       { name: "Genussdauer", value: 9, unit: "min", highestWins: true },
@@ -75,7 +92,10 @@ export default [
     address: "Schönhauser Allee 116a",
     district: "Prenzlauer Berg",
     info: "",
-    images: ["https://apps.maxspuling.de/assets/quartetto/2a.jpg"],
+    images: [
+      "https://apps.maxspuling.de/assets/quartetto/2a.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/1a.jpg",
+    ],
     stats: [
       { name: "Preis", value: 3, unit: "€", highestWins: false },
       { name: "Genussdauer", value: 8, unit: "min", highestWins: true },
@@ -92,7 +112,10 @@ export default [
     address: "Wittenbergplatz 5",
     district: "Schöneberg",
     info: "",
-    images: ["https://apps.maxspuling.de/assets/quartetto/2b.jpg"],
+    images: [
+      "https://apps.maxspuling.de/assets/quartetto/2b.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/1a.jpg",
+    ],
     stats: [
       { name: "Preis", value: 5, unit: "€", highestWins: false },
       { name: "Genussdauer", value: 9, unit: "min", highestWins: true },
@@ -109,7 +132,10 @@ export default [
     address: "Schönhauser Allee 44b",
     district: "Prenzlauer Berg",
     info: "",
-    images: ["https://apps.maxspuling.de/assets/quartetto/2c.jpg"],
+    images: [
+      "https://apps.maxspuling.de/assets/quartetto/2c.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/1a.jpg",
+    ],
     stats: [
       { name: "Preis", value: 5, unit: "€", highestWins: false },
       { name: "Genussdauer", value: 8, unit: "min", highestWins: true },
@@ -126,7 +152,15 @@ export default [
     address: "Goltzstraße 15",
     district: "Schöneberg",
     info: "",
-    images: ["https://apps.maxspuling.de/assets/quartetto/2d.jpg"],
+    images: [
+      "https://apps.maxspuling.de/assets/quartetto/2d01.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/2d02.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/2d03.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/2d04.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/2d05.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/2d06.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/2d07.jpg",
+    ],
     stats: [
       { name: "Preis", value: 4, unit: "€", highestWins: false },
       { name: "Genussdauer", value: 9, unit: "min", highestWins: true },
@@ -143,7 +177,10 @@ export default [
     address: "Pankstraße 52",
     district: "Gesundbrunnen",
     info: "",
-    images: ["https://apps.maxspuling.de/assets/quartetto/3a.jpg"],
+    images: [
+      "https://apps.maxspuling.de/assets/quartetto/3a.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/1a.jpg",
+    ],
     stats: [
       { name: "Preis", value: 6, unit: "€", highestWins: false },
       { name: "Genussdauer", value: 18, unit: "min", highestWins: true },
@@ -160,7 +197,12 @@ export default [
     address: "Danziger Straße 33",
     district: "Prenzlauer Berg",
     info: "",
-    images: ["https://apps.maxspuling.de/assets/quartetto/3b.jpg"],
+    images: [
+      "https://apps.maxspuling.de/assets/quartetto/3b01.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/3b02.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/3b03.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/3b04.jpg",
+    ],
     stats: [
       { name: "Preis", value: 7, unit: "€", highestWins: false },
       { name: "Genussdauer", value: 16, unit: "min", highestWins: true },
@@ -177,7 +219,13 @@ export default [
     address: "Lychener Straße 2",
     district: "Prenzlauer Berg",
     info: "",
-    images: ["https://apps.maxspuling.de/assets/quartetto/3c.jpg"],
+    images: [
+      "https://apps.maxspuling.de/assets/quartetto/3c01.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/3c02.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/3c03.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/3c04.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/3c05.jpg",
+    ],
     stats: [
       { name: "Preis", value: 4, unit: "€", highestWins: false },
       { name: "Genussdauer", value: 11, unit: "min", highestWins: true },
@@ -194,7 +242,10 @@ export default [
     address: "Reichenberger Straße 10",
     district: "Kreuzberg",
     info: "",
-    images: ["https://apps.maxspuling.de/assets/quartetto/3d.jpg"],
+    images: [
+      "https://apps.maxspuling.de/assets/quartetto/3d.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/1a.jpg",
+    ],
     stats: [
       { name: "Preis", value: 5, unit: "€", highestWins: false },
       { name: "Genussdauer", value: 13, unit: "min", highestWins: true },
@@ -211,7 +262,10 @@ export default [
     address: "Stargarder Straße 39",
     district: "Prenzlauer Berg",
     info: "",
-    images: ["https://apps.maxspuling.de/assets/quartetto/4a.jpg"],
+    images: [
+      "https://apps.maxspuling.de/assets/quartetto/4a.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/1a.jpg",
+    ],
     stats: [
       { name: "Preis", value: 5, unit: "€", highestWins: false },
       { name: "Genussdauer", value: 10, unit: "min", highestWins: true },
@@ -228,7 +282,10 @@ export default [
     address: "Oranienstraße 19a",
     district: "Kreuzberg",
     info: "",
-    images: ["https://apps.maxspuling.de/assets/quartetto/4b.jpg"],
+    images: [
+      "https://apps.maxspuling.de/assets/quartetto/4b.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/1a.jpg",
+    ],
     stats: [
       { name: "Preis", value: 6, unit: "€", highestWins: false },
       { name: "Genussdauer", value: 18, unit: "min", highestWins: true },
@@ -245,7 +302,10 @@ export default [
     address: "Stargarder Straße 79",
     district: "Prenzlauer Berg",
     info: "",
-    images: ["https://apps.maxspuling.de/assets/quartetto/4c.jpg"],
+    images: [
+      "https://apps.maxspuling.de/assets/quartetto/4c.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/1a.jpg",
+    ],
     stats: [
       { name: "Preis", value: 4, unit: "€", highestWins: false },
       { name: "Genussdauer", value: 8, unit: "min", highestWins: true },
@@ -262,7 +322,10 @@ export default [
     address: "Mariendorfer Damm 337–339",
     district: "Mariendorf",
     info: "",
-    images: ["https://apps.maxspuling.de/assets/quartetto/4d.jpg"],
+    images: [
+      "https://apps.maxspuling.de/assets/quartetto/4d.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/1a.jpg",
+    ],
     stats: [
       { name: "Preis", value: 3, unit: "€", highestWins: false },
       { name: "Genussdauer", value: 9, unit: "min", highestWins: true },
@@ -279,7 +342,13 @@ export default [
     address: "Kolonnenstraße 54",
     district: "Schöneberg",
     info: "",
-    images: ["https://apps.maxspuling.de/assets/quartetto/5a.jpg"],
+    images: [
+      "https://apps.maxspuling.de/assets/quartetto/5a01.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/5a02.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/5a03.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/5a04.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/5a05.jpg",
+    ],
     stats: [
       { name: "Preis", value: 2, unit: "€", highestWins: false },
       { name: "Genussdauer", value: 2, unit: "min", highestWins: true },
@@ -296,7 +365,10 @@ export default [
     address: "Senefelderstraße 29",
     district: "Prenzlauer Berg",
     info: "",
-    images: ["https://apps.maxspuling.de/assets/quartetto/5b.jpg"],
+    images: [
+      "https://apps.maxspuling.de/assets/quartetto/5b.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/1a.jpg",
+    ],
     stats: [
       { name: "Preis", value: 3, unit: "€", highestWins: false },
       { name: "Genussdauer", value: 8, unit: "min", highestWins: true },
@@ -313,7 +385,10 @@ export default [
     address: "Czarnikauer Straße 22",
     district: "Prenzlauer Berg",
     info: "",
-    images: ["https://apps.maxspuling.de/assets/quartetto/5c.jpg"],
+    images: [
+      "https://apps.maxspuling.de/assets/quartetto/5c.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/1a.jpg",
+    ],
     stats: [
       { name: "Preis", value: 3, unit: "€", highestWins: false },
       { name: "Genussdauer", value: 5, unit: "min", highestWins: true },
@@ -330,7 +405,10 @@ export default [
     address: "",
     district: "",
     info: "aber nirgendwo so richtig gut",
-    images: ["https://apps.maxspuling.de/assets/quartetto/5d.jpg"],
+    images: [
+      "https://apps.maxspuling.de/assets/quartetto/5d.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/1a.jpg",
+    ],
     stats: [
       { name: "Preis", value: 3, unit: "€", highestWins: false },
       { name: "Genussdauer", value: 6, unit: "min", highestWins: true },
@@ -347,7 +425,10 @@ export default [
     address: "Brunnenstraße 54",
     district: "Mitte",
     info: "",
-    images: ["https://apps.maxspuling.de/assets/quartetto/6a.jpg"],
+    images: [
+      "https://apps.maxspuling.de/assets/quartetto/6a.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/1a.jpg",
+    ],
     stats: [
       { name: "Preis", value: 6, unit: "€", highestWins: false },
       { name: "Genussdauer", value: 13, unit: "min", highestWins: true },
@@ -364,7 +445,16 @@ export default [
     address: "Hufelandstraße 10",
     district: "Prenzlauer Berg",
     info: "",
-    images: ["https://apps.maxspuling.de/assets/quartetto/6b.jpg"],
+    images: [
+      "https://apps.maxspuling.de/assets/quartetto/6b01.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/6b02.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/6b03.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/6b04.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/6b05.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/6b06.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/6b07.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/6b08.jpg",
+    ],
     stats: [
       { name: "Preis", value: 5, unit: "€", highestWins: false },
       { name: "Genussdauer", value: 15, unit: "min", highestWins: true },
@@ -381,7 +471,10 @@ export default [
     address: "Husemannstraße 25",
     district: "Prenzlauer Berg",
     info: "",
-    images: ["https://apps.maxspuling.de/assets/quartetto/6c.jpg"],
+    images: [
+      "https://apps.maxspuling.de/assets/quartetto/6c.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/1a.jpg",
+    ],
     stats: [
       { name: "Preis", value: 6, unit: "€", highestWins: false },
       { name: "Genussdauer", value: 16, unit: "min", highestWins: true },
@@ -398,7 +491,10 @@ export default [
     address: "Krossener Straße 12",
     district: "Friedrichshain",
     info: "",
-    images: ["https://apps.maxspuling.de/assets/quartetto/6d.jpg"],
+    images: [
+      "https://apps.maxspuling.de/assets/quartetto/6d.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/1a.jpg",
+    ],
     stats: [
       { name: "Preis", value: 4, unit: "€", highestWins: false },
       { name: "Genussdauer", value: 10, unit: "min", highestWins: true },
@@ -411,11 +507,14 @@ export default [
     index: "7A",
     category: "Eisiges",
     item: "Schokosplitter/Nuss",
-    name: "Eis Pfennig (aka Eis-Hennig)",
+    name: "Eis Pfennig (aka Eis Hennig)",
     address: "Tempelhofer Damm 134",
     district: "Tempelhof",
     info: "",
-    images: ["https://apps.maxspuling.de/assets/quartetto/7a.jpg"],
+    images: [
+      "https://apps.maxspuling.de/assets/quartetto/7a.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/1a.jpg",
+    ],
     stats: [
       { name: "Preis", value: 2, unit: "€", highestWins: false },
       { name: "Genussdauer", value: 12, unit: "min", highestWins: true },
@@ -432,7 +531,10 @@ export default [
     address: "Berliner Straße 49a",
     district: "Pankow",
     info: "",
-    images: ["https://apps.maxspuling.de/assets/quartetto/7b.jpg"],
+    images: [
+      "https://apps.maxspuling.de/assets/quartetto/7b.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/1a.jpg",
+    ],
     stats: [
       { name: "Preis", value: 4, unit: "€", highestWins: false },
       { name: "Genussdauer", value: 14, unit: "min", highestWins: true },
@@ -449,7 +551,10 @@ export default [
     address: "Schönhauser Allee",
     district: "Prenzlauer Berg",
     info: "",
-    images: ["https://apps.maxspuling.de/assets/quartetto/7c.jpg"],
+    images: [
+      "https://apps.maxspuling.de/assets/quartetto/7c.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/1a.jpg",
+    ],
     stats: [
       { name: "Preis", value: 8, unit: "€", highestWins: false },
       { name: "Genussdauer", value: 18, unit: "min", highestWins: true },
@@ -466,7 +571,11 @@ export default [
     address: "",
     district: "",
     info: "in vielen Berliner Shopping Malls",
-    images: ["https://apps.maxspuling.de/assets/quartetto/7d.jpg"],
+    images: [
+      "https://apps.maxspuling.de/assets/quartetto/7d01.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/7d02.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/7d03.jpg",
+    ],
     stats: [
       { name: "Preis", value: 5, unit: "€", highestWins: false },
       { name: "Genussdauer", value: 20, unit: "min", highestWins: true },
@@ -483,7 +592,10 @@ export default [
     address: "auf Wochenmärkten",
     district: "",
     info: "(u.a. Kollwitzplatz, Prenzlauer Berg/Südstern, Kreuzberg/Breslauer Platz, Friedenau)",
-    images: ["https://apps.maxspuling.de/assets/quartetto/8a.jpg"],
+    images: [
+      "https://apps.maxspuling.de/assets/quartetto/8a.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/1a.jpg",
+    ],
     stats: [
       { name: "Preis", value: 6, unit: "€ (200g)", highestWins: false },
       { name: "Genussdauer", value: 35, unit: "min", highestWins: true },
@@ -500,7 +612,10 @@ export default [
     address: "auf Wochenmärkten",
     district: "",
     info: "",
-    images: ["https://apps.maxspuling.de/assets/quartetto/8b.jpg"],
+    images: [
+      "https://apps.maxspuling.de/assets/quartetto/8b.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/1a.jpg",
+    ],
     stats: [
       { name: "Preis", value: 3, unit: "€ (0,2l)", highestWins: false },
       { name: "Genussdauer", value: 4, unit: "min", highestWins: true },
@@ -517,7 +632,10 @@ export default [
     address: "auf Wochenmärkten",
     district: "",
     info: "(u.a. Herrfurthplatz, Neukölln/Seelower Str., Prenzlauer Berg/Antonplatz, Pankow)",
-    images: ["https://apps.maxspuling.de/assets/quartetto/8c.jpg"],
+    images: [
+      "https://apps.maxspuling.de/assets/quartetto/8c.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/1a.jpg",
+    ],
     stats: [
       { name: "Preis", value: 7, unit: "€ (200g)", highestWins: false },
       { name: "Genussdauer", value: 45, unit: "min", highestWins: true },
@@ -534,7 +652,10 @@ export default [
     address: "KulturBrauerei, Sredzkistraße 1",
     district: "Prenzlauer Berg",
     info: "",
-    images: ["https://apps.maxspuling.de/assets/quartetto/8d.jpg"],
+    images: [
+      "https://apps.maxspuling.de/assets/quartetto/8d.jpg",
+      "https://apps.maxspuling.de/assets/quartetto/1a.jpg",
+    ],
     stats: [
       { name: "Preis", value: 10, unit: "€", highestWins: false },
       { name: "Genussdauer", value: 25, unit: "min", highestWins: true },

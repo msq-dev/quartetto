@@ -3,6 +3,7 @@
   import { scale } from "svelte/transition"
   import { gameRunning, userBegins, statUser } from "../stores/game.js"
   import CardStat from "./CardStat.svelte"
+  import Gallery from "./Gallery.svelte"
 
   export let index
   export let category
@@ -13,8 +14,6 @@
   export let info
   export let images
   export let stats
-
-  $: src = images[0]
 
   const dispatch = createEventDispatcher()
 
@@ -45,8 +44,8 @@
       <span class="info">{info}</span>
       <span class="item">{item}</span>
     </div>
-    <div class="card-image">
-      <img {src} alt={name} />
+    <div class="card-gallery">
+      <Gallery {images} {item} />
     </div>
     <div class="card-stats">
       {#each stats as s}
@@ -59,6 +58,8 @@
 <style>
   .card {
     display: grid;
+    grid-template-rows: auto 1fr auto;
+    gap: 0.5em;
     width: 90%;
     aspect-ratio: 0.65;
     padding: 0.5em 1em;
@@ -125,13 +126,9 @@
     font-size: 50%;
   }
 
-  .card-image {
-    width: 100%;
-    aspect-ratio: 4 / 3;
+  .card-gallery {
+    grid-row: 2;
+    position: relative;
     overflow: hidden;
-  }
-
-  .card-image img {
-    object-fit: contain;
   }
 </style>
